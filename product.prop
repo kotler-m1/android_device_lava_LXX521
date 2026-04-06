@@ -1,0 +1,12 @@
+# Miscellaneous
+persist.wm.extensions.enabled=true
+remote_provisioning.hostname=remoteprovisioning.googleapis.com
+ro.com.google.acsa=true
+ro.com.google.gmsversion=15_202503
+ro.com.google.lens.oem_camera_package=com.android.camera
+ro.opa.eligible_device=true
+ro.product.build.16k_page.enabled=false
+ro.product.build.no_bionic_page_size_macro=true
+ro.product.cpu.pagesize.max=16384
+ro.setupwizard.rotation_locked=true
+
