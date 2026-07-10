@@ -8,16 +8,16 @@ DEVICE_PATH := device/lava/LXX521
 # A/B
 AB_OTA_UPDATER := true
 AB_OTA_PARTITIONS += \
-    vendor_dlkm \
+    boot \
     product \
     system_dlkm \
-    boot \
     vbmeta_system \
-    system_ext \
     vendor \
+    system_ext \
     odm_dlkm \
     vbmeta_vendor \
-    system
+    system \
+    vendor_dlkm
 BOARD_USES_RECOVERY_AS_BOOT := true
 
 # Architecture
@@ -74,13 +74,13 @@ BOARD_VENDOR_BOOTIMAGE_PARTITION_SIZE := 67108864
 BOARD_SUPER_PARTITION_SIZE := 9126805504 # TODO: Fix hardcoded value
 BOARD_SUPER_PARTITION_GROUPS := lava_dynamic_partitions
 BOARD_LAVA_DYNAMIC_PARTITIONS_PARTITION_LIST := \
-    vendor_dlkm \
     product \
     system_dlkm \
-    system_ext \
     vendor \
+    system_ext \
     odm_dlkm \
-    system
+    system \
+    vendor_dlkm
 BOARD_LAVA_DYNAMIC_PARTITIONS_SIZE := 9122611200 # TODO: Fix hardcoded value
 
 # Platform

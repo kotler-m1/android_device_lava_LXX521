@@ -1,4 +1,4 @@
-# Unpinned blobs from LAVA_LXX521_SW_V08_HW_V1.0_20251111
+# Unpinned blobs from LAVA_LXX521_SW_V12_HW_V1.0_20260519
 
 # Audio
 system_ext/bin/hw/android.hardware.audio.parameter_parser.service
@@ -1688,7 +1688,6 @@ vendor/app/t6/9ef77781-7bd5-4e39-965f20f6f211f400.ta
 vendor/app/t6/b46325e6-5c90-8252-2eada8e32e5180d6.ta
 vendor/app/t6/cfg.ini
 vendor/app/t6/e97c270e-a5c4-4c58-bcd3384a2fa2539e.ta
-vendor/app/t6/ffffffff-126c-d6ab-5a1dfa772a732a75.ta
 vendor/bin/crossbuild/DataSet/SQLiteModule/db/ae/mt6878/ParameterDB_ae.db
 vendor/bin/crossbuild/DataSet/SQLiteModule/db/ae/ParameterDB_ae.db
 vendor/bin/crossbuild/DataSet/SQLiteModule/db/af/mt6878/ParameterDB_af.db
