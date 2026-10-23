@@ -1,6 +1,13 @@
 #!/bin/bash
 set -e
 
+# Set Git identity for repo init
+git config --global user.name "kotler-m1"
+git config --global user.email "kotler.b3@gmail.com"
+
+# Setup build workspace directory
+cd /crave-devspaces/lxx521-16
+
 # =========================================================
 # Initialize LineageOS 23.2 (Android 16)
 # =========================================================
