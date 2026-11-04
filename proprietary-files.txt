@@ -1,7 +1,6 @@
 # Unpinned blobs from LAVA_LXX521_SW_V13_HW_V1.0_20260811
 
 # Audio
-system_ext/bin/hw/android.hardware.audio.parameter_parser.service
 system_ext/etc/init/android.hardware.audio.parameter_parser.service.rc
 vendor/bin/hw/android.hardware.audio.service.mediatek
 vendor/etc/init/android.hardware.audio.service.mediatek.rc
@@ -1338,21 +1337,17 @@ vendor/lib64/hw/local_time.default.so
 
 # Media
 system/etc/seccomp_policy/mediacodec.policy
-system/lib/graphicbuffersource-aidl-ndk.so
 system/lib/libmedia_codeclist.so
 system/lib/libstagefright_aidl_bufferpool2.so
 system/lib/libstagefright_bufferpool@2.0.1.so
 system/lib/libstagefright_codecbase.so
 system/lib/libstagefright_framecapture_utils.so
-system/lib/libstagefright_graphicbuffersource_aidl.so
 system/lib/libstagefright_surface_utils.so
-system/lib64/graphicbuffersource-aidl-ndk.so
 system/lib64/libmedia_codeclist.so
 system/lib64/libstagefright_aidl_bufferpool2.so
 system/lib64/libstagefright_bufferpool@2.0.1.so
 system/lib64/libstagefright_codecbase.so
 system/lib64/libstagefright_framecapture_utils.so
-system/lib64/libstagefright_graphicbuffersource_aidl.so
 system/lib64/libstagefright_surface_utils.so
 system_ext/lib/libged_sys.so
 system_ext/lib/libgralloc_extra_sys.so
@@ -3187,6 +3182,7 @@ vendor/lib/libkeymint_tool.so
 vendor/lib/libkeystore-wifi-hidl.so
 vendor/lib/libkmsetkey.so
 vendor/lib/libminiui.so
+vendor/lib/libpixelflinger.so
 vendor/lib/libmmlpqImpl.so
 vendor/lib/libmmprofile.so
 vendor/lib/libmnetlink_v104.so
@@ -3465,6 +3461,7 @@ vendor/lib64/libkmsetkey.so
 vendor/lib64/libkphhelper.so
 vendor/lib64/libkphproxy.so
 vendor/lib64/libminiui.so
+vendor/lib64/libpixelflinger.so
 vendor/lib64/libmmlpqImpl.so
 vendor/lib64/libmmprofile.so
 vendor/lib64/libmnetlink_v104.so
@@ -3616,3 +3613,6 @@ vendor/res/sound/ringtone.wav
 vendor/res/sound/testpattern1.wav
 vendor/ro.prop
 vendor/rw.prop
+vendor/lib64/hw/android.hardware.gnss-impl-mediatek.so
+vendor/lib64/android.hardware.power-service-mediatek.so
+vendor/lib64/android.hardware.bluetooth.audio-impl-mediatek.so
