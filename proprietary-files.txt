@@ -1636,7 +1636,7 @@ vendor/lib64/hw/vibrator.default.so
 # Wi-Fi
 vendor/bin/hw/android.hardware.wifi-service-lazy;MODULE_SUFFIX=_legacy
 vendor/bin/hw/hostapd
-vendor/bin/hw/wpa_supplicant
+vendor/bin/hw/wpa_supplicant;MODULE_SUFFIX=_legacy
 vendor/bin/hostapd_cli
 vendor/bin/wlan_assistant
 vendor/bin/wmt_launcher
