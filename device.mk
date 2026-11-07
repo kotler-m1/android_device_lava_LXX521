@@ -100,3 +100,7 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/lava/LXX521/LXX521-vendor.mk)
+
+# Use the AOSP sensor NDK bridge implementation
+PRODUCT_PACKAGES += \
+    libsensorndkbridge

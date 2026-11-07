@@ -12,12 +12,12 @@ vendor/lib/hw/audio.r_submix.default.so
 vendor/lib/hw/audio.r_submix.mediatek.so
 vendor/lib/hw/audio.usb.default.so
 vendor/lib/hw/vendor.mediatek.hardware.audio-impl.so
-vendor/lib/audioclient-types-aidl-cpp.so
-vendor/lib/av-types-aidl-cpp.so
+vendor/lib/audioclient-types-aidl-cpp.so;MODULE_SUFFIX=_legacy
+vendor/lib/av-types-aidl-cpp.so;MODULE_SUFFIX=_legacy
 vendor/lib/framework-permission-aidl-cpp.so
 vendor/lib/libaedv.so
 vendor/lib/libalsautils.so
-vendor/lib/libaudioclient_aidl_conversion.so
+vendor/lib/libaudioclient_aidl_conversion.so;MODULE_SUFFIX=_legacy
 vendor/lib/libaudiofoundation.so
 vendor/lib/libaudiotoolkit_vendor.so
 vendor/lib/libbwc.so
@@ -40,12 +40,12 @@ vendor/lib64/hw/audio.r_submix.mediatek.so
 vendor/lib64/hw/audio.r_submix.mt6878.so
 vendor/lib64/hw/audio.usb.default.so
 vendor/lib64/hw/vendor.mediatek.hardware.audio-impl.so
-vendor/lib64/audioclient-types-aidl-cpp.so
-vendor/lib64/av-types-aidl-cpp.so
+vendor/lib64/audioclient-types-aidl-cpp.so;MODULE_SUFFIX=_legacy
+vendor/lib64/av-types-aidl-cpp.so;MODULE_SUFFIX=_legacy
 vendor/lib64/framework-permission-aidl-cpp.so
 vendor/lib64/libaedv.so
 vendor/lib64/libalsautils.so
-vendor/lib64/libaudioclient_aidl_conversion.so
+vendor/lib64/libaudioclient_aidl_conversion.so;MODULE_SUFFIX=_legacy
 vendor/lib64/libaudiofoundation.so
 vendor/lib64/libaudiotoolkit_vendor.so
 vendor/lib64/libbwc.so
@@ -1109,7 +1109,7 @@ vendor/bin/hw/android.hardware.cas-service.example
 vendor/etc/vintf/manifest/android.hardware.cas-service.xml
 
 # Context hub
-vendor/bin/hw/android.hardware.contexthub-service.tinysys
+vendor/bin/hw/android.hardware.contexthub-service.tinysys;MODULE_SUFFIX=_legacy
 
 # Display
 system_ext/lib/vendor.mediatek.hardware.mms@1.0.so;MODULE_SUFFIX=_system_ext
@@ -1177,7 +1177,6 @@ vendor/lib/libpqframework.so
 vendor/lib/libpqparamparser.so
 vendor/lib/libpqxmlflagparser.so
 vendor/lib/libpqxmlparser.so
-vendor/lib/libsensorndkbridge.so
 vendor/lib/vendor.mediatek.hardware.composer_ext-V1-ndk.so
 vendor/lib/vendor.mediatek.hardware.composer_ext@1.0.so
 vendor/lib/vendor.mediatek.hardware.mmlpq-V3-ndk.so
@@ -1227,7 +1226,6 @@ vendor/lib64/libpqframework.so
 vendor/lib64/libpqparamparser.so
 vendor/lib64/libpqxmlflagparser.so
 vendor/lib64/libpqxmlparser.so
-vendor/lib64/libsensorndkbridge.so
 vendor/lib64/libsilkybrightnesscore.so
 vendor/lib64/vendor.mediatek.hardware.composer_ext-V1-ndk.so
 vendor/lib64/vendor.mediatek.hardware.composer_ext@1.0.so
@@ -1321,7 +1319,7 @@ vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Verizon_Wireless.xml
 vendor/etc/gnss/agps_profiles_conf2.xml
 
 # Health
-vendor/bin/hw/android.hardware.health-service.example
+vendor/bin/hw/android.hardware.health-service.example;MODULE_SUFFIX=_legacy
 vendor/bin/fuelgauged
 vendor/etc/init/android.hardware.health-service.example.rc
 vendor/etc/init/fuelgauged_init.rc
@@ -1569,7 +1567,7 @@ vendor/lib/libcppbor_external.so
 vendor/lib64/libcppbor_external.so
 
 # Sensors
-vendor/bin/hw/android.hardware.sensors-service.multihal
+vendor/bin/hw/android.hardware.sensors-service.multihal;MODULE_SUFFIX=_legacy
 vendor/etc/init/android.hardware.sensors-service-multihal.rc
 vendor/etc/vintf/manifest/android.hardware.sensors-multihal.xml
 vendor/lib/hw/sensors.dynamic_sensor_hal.so
@@ -1636,7 +1634,7 @@ vendor/lib/hw/vibrator.default.so
 vendor/lib64/hw/vibrator.default.so
 
 # Wi-Fi
-vendor/bin/hw/android.hardware.wifi-service-lazy
+vendor/bin/hw/android.hardware.wifi-service-lazy;MODULE_SUFFIX=_legacy
 vendor/bin/hw/hostapd
 vendor/bin/hw/wpa_supplicant
 vendor/bin/hostapd_cli
@@ -3097,7 +3095,7 @@ vendor/lib/libHEVCdec_sa.ca7.android.so
 vendor/lib/libMcClient.so
 vendor/lib/libMtkSpeechEnh.so
 vendor/lib/libMtkSpeechEnh_swb.so
-vendor/lib/lib_android_keymaster_keymint_utils.so
+vendor/lib/lib_android_keymaster_keymint_utils.so;MODULE_SUFFIX=_legacy
 vendor/lib/lib_iir.so
 vendor/lib/lib_power_applist.so
 vendor/lib/libaal_cust_func.so
@@ -3177,7 +3175,7 @@ vendor/lib/libimgsys_traw.so
 vendor/lib/libimgsys_utils.so
 vendor/lib/libimgsys_wpe.so
 vendor/lib/libipsec_ims_shr.so
-vendor/lib/libkeymint.so
+vendor/lib/libkeymint.so;MODULE_SUFFIX=_legacy
 vendor/lib/libkeymint_tool.so
 vendor/lib/libkeystore-wifi-hidl.so
 vendor/lib/libkmsetkey.so
@@ -3359,7 +3357,7 @@ vendor/lib64/libMcClient.so
 vendor/lib64/libMtkSpeechEnh.so
 vendor/lib64/libMtkSpeechEnh_swb.so
 vendor/lib64/libVkLayer_mtk_rt_sdk.so
-vendor/lib64/lib_android_keymaster_keymint_utils.so
+vendor/lib64/lib_android_keymaster_keymint_utils.so;MODULE_SUFFIX=_legacy
 vendor/lib64/lib_iir.so
 vendor/lib64/lib_power_applist.so
 vendor/lib64/libaal_cust_func.so
@@ -3454,7 +3452,7 @@ vendor/lib64/libimgsys_utils.so
 vendor/lib64/libimgsys_wpe.so
 vendor/lib64/libipsec_ims_shr.so
 vendor/lib64/libisetrusty.so
-vendor/lib64/libkeymint.so
+vendor/lib64/libkeymint.so;MODULE_SUFFIX=_legacy
 vendor/lib64/libkeymint_tool.so
 vendor/lib64/libkeystore-wifi-hidl.so
 vendor/lib64/libkmsetkey.so
