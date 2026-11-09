@@ -101,6 +101,8 @@ PRODUCT_SOONG_NAMESPACES += \
 # Inherit the proprietary files
 $(call inherit-product, vendor/lava/LXX521/LXX521-vendor.mk)
 
-# Use the AOSP sensor NDK bridge implementation
+# Use the AOSP sensor NDK bridge implementation.
+# Include Sensors V2 for the legacy MediaTek PQ binaries.
 PRODUCT_PACKAGES += \
-    libsensorndkbridge
+    libsensorndkbridge \
+    android.hardware.sensors-V2-ndk

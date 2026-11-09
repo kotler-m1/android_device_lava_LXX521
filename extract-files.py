@@ -49,6 +49,7 @@ lib_fixups: lib_fixups_user_type = {
     "lib_android_keymaster_keymint_utils": lib_fixup_legacy_vendor_library,
     "libkeymint": lib_fixup_legacy_vendor_library,
     "libaudioclient_aidl_conversion": lib_fixup_legacy_vendor_library,
+    "libaudio_aidl_conversion_common_ndk": lib_fixup_legacy_vendor_library,
 
     # Android 15 Protobuf compatibility.
     'libprotobuf-cpp-lite-21.7':
